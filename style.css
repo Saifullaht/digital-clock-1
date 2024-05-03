@@ -84,3 +84,14 @@ span{
     0 0 60px var(--clr)
     ;
 }
+
+
+
+@media screen and (max-width:600px) {
+    #time{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    
+    }
+}
